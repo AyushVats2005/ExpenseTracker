@@ -4,11 +4,94 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, innitial-scale=1.0">
         <title>Expense Tracker</title>
-        <link href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
 </head> 
 <body>
 
+    <div class="header">
+        <h1>Good Morning, Lew!</h1>
+        <div class="header-controls">
+            <div class="dropdown">
+                Daily <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="date-picker">
+                <i class="fas fa-calendar"></i>
+                16 january 2025
+            </div>
+
+            <div class="export-btn">
+                <i class="fas fa-download"></i>
+                Export
+            </div>
+        </div>
+
+    </div>
+
+    /*Header done now moving to main content*/
+
+    <div class="main-content">
+        <div class="dashboard-grid">
+
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Monthly Income</h3>
+                    <button class="card-menu"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <div class="amount income-amount">$2,645.00</div>
+                <div class="change">
+                    <i class="fas fa-arrow-up"></i>
+                    12% vs Last month
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Monthly Expenses</h3>
+                    <button class="card-menu"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <div class="amount income-amount">$1,895.00</div>
+                <div class="change">
+                    <i class="fas fa-arrow-up"></i>
+                    12% vs Last month
+                </div>
+            </div>
+
+ 
+            <div class="card my-card">
+                <div class="card-header">
+                    <h3 class="card-title">My Card</h3>
+                    <button class="card-menu" style="color: white;"><i class="fas fa-ellipsis-h"></i></button>
+                </div>
+                <div style="font-size: 0.75rem; opacity: 0.8; margin-bottom: 1rem;">Linked to your primary wallet</div>
+
+                <div class="card-chip"></div>
+                <div class="card-number">5435 2735 0037 0015</div>
+                <div class="card-holder">Lew</div>
+
+                <div class="card-logo">
+                    <div class="card-logo-circle logo-red"></div>
+                    <div class="card-logo-circle logo-orange"></div>
+                </div>
+
+                <div class="spending-section">
+                    <div style="margin-bottom: 0.5rem; font-size: 0.875renl; opacity: 0.9;">Spending Limit</div>
+                    <div class="spending-limit">$4,645.00</div>
+                    <div class="spending-used">used from $12,645.00</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+            </div>
+    
+    
+
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
