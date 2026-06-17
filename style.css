@@ -371,7 +371,7 @@ body {
   background: #eab308;
 }
 
-.transaction-section {
+.transactions-section {
   grid-column: 1/-1;
   margin-bottom: 2rem;
 }
@@ -546,7 +546,7 @@ body {
 }
 
 .btn {
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-size: 0.875rem;
   font-weight: 600;
@@ -560,8 +560,8 @@ body {
 }
 
 .btn-secondary{
-  background: #374151;
-  color: white;
+  background: #f3f4f6;
+  color: #374151;
 }
 
 
